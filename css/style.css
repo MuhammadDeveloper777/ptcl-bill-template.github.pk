@@ -1,0 +1,378 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 97vh; height: 200vh;
+}
+.row{
+	width: 97vw; height: 200vh;
+	display: flex;
+}
+.row .left{
+	width: 55vw; height: 200vh;
+	margin-left: 3vw;
+}
+.left .overview{
+	width: 55vw; height: 74vh;
+	margin-left: 5vw;
+}
+	.left .overview .bar{
+		width: 43vw; height: 5vh;
+		background-color: #008300;
+	}
+	.overview .row1{
+		display: flex;
+	}
+		.overview .row1 img{
+			width: 15vw;
+		}
+		.overview .row1 .short-text{
+			margin-top: 1vh;
+			margin-left: 4vw;
+			font-family: sans-serif; font-size: 18px; font-weight: 700;
+			/*----PENDNG-----*/
+			text-shadow: black;
+			
+			
+		}
+		.overview .row1 .short-text .nmbr{
+			margin-top: 7vh;
+			/*---------*/
+			letter-spacing: 0.50px;
+			
+		}
+	.overview .head{
+		font-family: sans-serif; font-size: 17px; font-weight: 700;
+		margin-left: 2vw; margin-top: 1vh;
+	}
+	.overview .box{
+		width: 32vw; height: 32vh;
+		border: 3px solid #008300; border-radius: 10px; 
+		margin-top: 2vh;
+		box-shadow: 0.5px 0.5px 0.5px 0.5px gray;
+	}
+		.box .name{
+			/*---------*/
+			font-family: sans-serif; font-size: 16px; font-weight: 700;
+			margin-left: 1vw; margin-top: 3vh;
+		}
+		.box .address{
+			font-family: sans-serif; font-size: 17px; font-weight: 400;
+			margin-top: 7vh; margin-left: 1vw; 
+
+		}
+	.overview .head1{
+		font-family: sans-serif; font-size: 17px; font-weight: 700;
+		margin-left: 2vw; margin-top: 3vh;
+		opacity: 0.7;
+	}	
+/*-----------------------Service----------------Detial---------------------------------------------*/
+.left .details{
+	width: 55vw;
+	height: 60vh;
+	margin-left: 0.5vw;
+}
+	.details .h3{
+		padding-left: 1vw;
+		padding-top: 1vh;
+		height: 3vh;
+		background-color: #79963f;
+		font-family: sans-serif; font-weight: 700; 
+		color: white;
+	}
+	.details .left-right{
+		width: 55vw;
+		height: 60vh;
+		display: flex;
+	}
+	.details .left-right .inside-left{
+		width: 26vw; height: 60vh;
+		margin-top: 3vh;
+		background-color: #f2f7e7;
+	}
+
+		.inside-left .h1{
+			font-family: fantasy; font-weight: 700; font-size: 20px;
+			background-color: #94d753;
+			padding-top: 2vh; padding-left: 1vw;
+			color: white;
+			height: 4vh;
+		}
+		.inside-left .hr hr{
+			width: 26vw;
+			margin-top: -0.4vh;
+			color: #b8b894;
+		}
+		.inside-left .heading{
+			display: flex;
+		}
+		.inside-left .h4{
+			font-family: sans-serif; font-weight: 550; font-size: 20px;
+			padding-bottom: 2vh; padding-left: 1vw; margin-top: -1vh;
+			color: black;
+			height: 4vh;
+			
+		}
+		.inside-left .h-4{
+			font-family: fantasy; font-weight: 550; font-size: 20px;
+			padding-bottom: 2vh; padding-left: 1vw; 
+			margin-top: -1vh; margin-left: 5vw; 
+			color: black;
+			height: 4vh; 
+			
+		}
+	/*-----.para .para-1----*/
+		.inside-left .para .para-1 {
+			display: flex;
+		}
+			.inside-left .para .para-1 .h5{
+				font-family: fantasy; font-size: 18px;
+				 margin-top: 2vh; margin-left: 1vw;
+				color: black;
+				height: 4vh;
+				
+			}
+			.inside-left .para .para-1 .h-5{
+				font-family: fantasy; font-size: 18px;
+				margin-top: 2vh; margin-left: 12vw; 
+				color: black;
+				height: 4vh; 
+				
+		}
+	/*-----.para .para-2----*/
+		.inside-left .para .para-2 {
+			display: flex;
+		}
+			.inside-left .para .para-2 .h6{
+				font-family: fantasy; font-size: 18px;
+				 margin-top: 2vh; margin-left: 1vw;
+				color: black;
+				height: 4vh;
+				
+			}
+			.inside-left .para .para-2 .h-6{
+				font-family: sans-serif; font-weight: initial; font-size: 18px;
+				margin-top: 2vh; margin-left: 7.7vw; 
+				color: black;
+				height: 4vh; 
+				
+		}
+	/*-----.para .para-3----*/
+		.inside-left .para .para-3 {
+			display: flex;
+		}
+			.inside-left .para .para-3 .h7{
+				font-family: fantasy;  font-size: 18px;
+				 margin-top: 2vh; margin-left: 1vw;
+				color: black;
+				height: 4vh;
+				
+			}
+			.inside-left .para .para-3 .h-7{
+				font-family: fantasy;  font-size: 18px;
+				margin-top: 2vh; margin-left: 5.5vw; 
+				color: black;
+				height: 4vh; 	
+			}
+			.para  hr{
+				margin-top: 22.7vh;
+				width: 26vw;
+			}
+			.para .para-4{
+				display: inline-flex;
+			}
+			.para .para-4 .h8{
+				font-size: 18px; font-family: fantasy; font-weight: bold;
+				margin-left: 1vw;
+			}
+			.para .para-4 .h-8{
+				font-size: 18px; font-family: fantasy; font-weight: bold;
+				margin-left: 14vw;
+			}
+			.para  .hr-1{
+				width: ;
+				margin-top: -22vh;
+			}
+	.details .left-right .inside-right{
+		width: 27vw; height: 60vh;
+		margin-top: 3vh;
+		margin-left: 2vw;
+		background-color: #ede7f3;
+	}
+		.inside-right .bar1{
+			width: 27vw; height: 6vh;
+			background-color: #b4a4d0; 
+		}
+		.inside-right .bar1 .h-2{
+			width: 27vw; height: 6vh;
+			padding-top: 2vh; padding-left: 1vw;
+			 color: white;
+			font-family: fantasy; font-size: 20px; font-weight: bolder;
+		}
+		.inside-right .hr2 hr{
+			width: 27vw;
+			margin-top: -0.4vh;
+		}
+		.inside-right .para{
+			text-align: center;
+			font-family: fantasy; font-size: 18px; font-weight: normal;
+			margin-top: 10vh;
+			line-height: 4vh;
+		}
+		.inside-right hr{
+			margin-top: 20vh;
+			width: 27vw;
+		}
+/*-----------broadband--------Evo-Charji-------Detial-----------------*/
+.left2-right2{
+	width: 55vw;
+	height: 70vh;
+	margin-top: 15vh; 
+	display: flex;
+}
+	.left2-right2 .brodband{
+		width: 26vw; height: 35vh;
+		background-color: #ddf5fc;
+		margin-left: 0.5vw;
+
+	}
+		.brodband .bar1{
+			width: 26vw; height: 5vh;
+			background-color: #5284c7;
+		}
+			.bar1 .head1{
+				font-family: fantasy; font-size: 16px; font-weight: bold;
+				color: white;
+				padding-top: 2vh; padding-left: 1vw;
+			}
+		.brodband hr{
+			margin-top: -0.1vh;
+			width: 26vw;
+			opacity: 0.7;
+		}	
+		.brodband .para{
+			text-align: center;
+			line-height: 3vh;
+			margin-top: 4vh;
+		}
+		.brodband .hr hr{
+			margin-top: 13.5vh;
+			width: 26vw;
+			opacity: 0.7;
+		}
+	.left2-right2 .evo{
+		width: 28vw; height: 35vh;
+		background-color: #ffeed4;
+		margin-left: 2vw;
+
+	}	
+		.evo .bar2{
+			width: 27; height: 5vh;
+			background-color: #f7c612;
+			
+		}
+			.bar2 .head1{
+				font-family: fantasy; font-size: 16px; font-weight: bold;
+				color: white;
+				padding-top: 2vh; padding-left: 1vw;
+
+			}
+		.evo hr{
+			margin-top: -0.1vh;
+			width: 27vw;
+			opacity: 0.7;
+
+		}
+		.evo .para{
+			text-align: center;
+			line-height: 3vh;
+			margin-top: 4vh;
+			font-family: fantasy; font-weight: normal; 
+
+		}
+		.evo .hr hr{
+			margin-top: 13.5vh;
+			width: 27vw;
+			opacity: 0.7;
+		}
+/*----------------------RIGHT-----------------------------START-----------------------------------------------*/
+.right{
+	width: 42vw; height: 200vh;
+	
+}
+	.right .invoice{
+		width: 42vw; height: 60vh; 
+		margin-top: 8vh; margin-left: -3vw; 
+	}
+		.invoice .head1{
+			font-family: fantasy; font-size: 30px; font-weight: bold;
+			text-align: center;
+		}
+		.invoice .box{
+			width: 20vw; height: 8vh;
+			border: 2px solid #008300;
+			margin-left: 10vw; margin-top: 2vh;
+		}
+		.box .nmbr{
+			font-family: fantasy; font-size: 35px; font-weight: bold;
+			text-align: center;
+			margin-top: 1vh;
+		}
+		.invoice .inv-nmbr{
+			font-family: fantasy; font-weight: bold; 
+			margin-left: 6vw; margin-top: 0.5vh;
+		}
+		.invoice .detail{
+			width: 36vw; height: 38vh; 
+			margin-top: 1vh; margin-left: 2vw;
+			display: flex;
+		}
+	/*-------left-----line------START-----------*/
+		.detail .left .line{
+			width: 17vw; height: 6vh;
+			background-color: #94d64a;
+			margin-top: 1vh;
+		}
+			.left .line  .short-text{
+				font-family: fantasy; font-size: 18px; font-weight: bold;
+				margin-left: 1vw; padding-top: 1vh;
+			}
+		.detail .left .line1{
+			width: 17vw; height: 6vh;
+			background-color: #008300;
+			margin-top: 1vh;
+		}
+			.left .line1  .short-text{
+				font-family: fantasy; font-size: 18px; font-weight: bold;
+				margin-left: 1vw; padding-top: 1vh;
+			}
+/*-------RIGHT-----------START-----------*/
+		.detail .right .line{
+			width: 17vw; height: 5.5vh;
+			background-color: #d6d6d6;
+			margin-top: 1vh; margin-left: 0.5vw;
+		}
+			.right .line  .short-text{
+				font-family: fantasy; font-size: 18px; font-weight: bold;
+				margin-left: 1vw; padding-top: 1vh;
+			}
+		.detail .right .line1{
+			width: 17vw; height: 5.5vh;
+			background-color: #d6d6d6;
+			margin-top: 1vh;
+			border: 2px solid #e63900;
+			margin-left: 0.5vw;
+		}
+			.right .line1  .short-text{
+				font-family: fantasy; font-size: 18px; font-weight: bold;
+				margin-left: 1vw; padding-top: 1vh;
+			}
+/*-------------------------SUMMARY RIGHT START---------------------------------------------------------*/
+
+
+.right .bill-paid{
+	width: 31vw; height: 35vh;
+	background-color: gray;
+	margin-left: 5.5vw; margin-top: 8vh;
+}
